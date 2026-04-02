@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Blues Cafe | Damoh</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">THE BLUES CAFE</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <h1>The Blues Cafe</h1>
+      <p>Rooftop Cafe • Damoh</p>
+      <div class="hero-buttons">
+        <a href="https://www.swiggy.com/city/damoh/the-blues-cafe-and-rooftop-vijay-nagar-rest1212108" target="_blank">Order on Swiggy</a>
+        <a href="https://www.zomato.com/damoh/the-blues-cafe-rooftop-damoh-locality" target="_blank">Order on Zomato</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+      The Blues Cafe is a premium rooftop cafe in Damoh, offering delicious food,
+      relaxing ambience and a perfect place to chill with friends & family.
+    </p>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="section dark">
+    <h2>Our Menu</h2>
+    <div class="menu-tabs">
+      <button onclick="showMenu('food')">Food</button>
+      <button onclick="showMenu('drinks')">Drinks</button>
+    </div>
+
+    <div id="food" class="menu-content">
+      <ul>
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>Pasta</li>
+        <li>Sandwich</li>
+      </ul>
+    </div>
+
+    <div id="drinks" class="menu-content hidden">
+      <ul>
+        <li>Cold Coffee</li>
+        <li>Mocktails</li>
+        <li>Shakes</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="assets/images/1.jpg" alt="Cafe Image">
+      <img src="assets/images/2.jpg" alt="Food Image">
+      <img src="assets/images/3.jpg" alt="Food Image">
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="section dark">
+    <h2>Google Reviews</h2>
+    <p>⭐ 4.5+ Rated by our customers</p>
+    <!-- Google review iframe future me yahin paste karna -->
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>📍 Damoh, Madhya Pradesh</p>
+    <p>📞 Contact available on Swiggy & Zomato</p>
+  </section>
+
+  <footer>
+    <p>© 2026 The Blues Cafe. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
